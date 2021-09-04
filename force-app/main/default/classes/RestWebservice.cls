@@ -1,7 +1,7 @@
 @RestResource(urlMapping='/helloWorld/*')
 global class RestWebservice {
 
-  @HttpGetglobal static String helloWorld(){
+  @HttpGet global static String helloWorld(){
     return 'HelloWorld';
   }
 
